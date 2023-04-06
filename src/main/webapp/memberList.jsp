@@ -54,7 +54,10 @@
 				conn.close();
 			}
 		}
-	
 	%>
+	
+	<br>
+	<br>
+	<input type = "button" value="회원정보수정▶▶" onclick="srtipt:window.location.href='modifyInput.jsp'">
 </body>
 </html>
