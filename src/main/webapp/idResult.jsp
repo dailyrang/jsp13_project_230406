@@ -33,13 +33,15 @@
 			
 			rs = pstmt.executeQuery();
 			
-			int count = 0;
+//			int count = 0;
 			
-			while(rs.next()) {
+//			while(rs.next()) {
 			
-				count++;
-			}
-				if (count == 0) {
+//				count++;
+//			}
+
+//				if (count == 0) 
+				if(!(rs.next())) {
 					out.println(cid + "는 가입 가능한 아이디입니다.");
 				} else {
 					out.println(cid + "는 이미 가입된 아이디입니다.<br>");
